@@ -13,5 +13,5 @@ def statement_generator(statement, decoration):
 
 
 # main routine goes here
-statement_generator("Welcome to the lucky unicorn Game", "*")
+statement_generator("Welcome to the Year 11 Digital quiz", "*")
 print()

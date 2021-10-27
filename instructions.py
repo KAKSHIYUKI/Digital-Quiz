@@ -19,17 +19,17 @@ def yes_no(question):
 def instructions():
     print("**** How to Play ****")
     print()
-    print("Answer questions correctly and enjoy the quiz by pressing A,B,C on your keyboard")
+    print("Answer questions correctly and enjoy the quiz by typing 1,2,3 on your keyboard")
     print()
     return ""
 
 
 # Main routine goes here...
-played_before = yes_no("Have you played the game before")
+played_before = yes_no("Have you completed a quiz before?")
 
 
 if played_before == "no":
     instructions()
 
-print("Program continues")
+print("Program continues (score will be shown at end)")
 
